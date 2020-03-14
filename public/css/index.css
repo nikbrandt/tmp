@@ -1,0 +1,55 @@
+html, body {
+	font-family: 'Noto Sans', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+/* flex box */
+
+.box {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.box header.row {
+	flex: 0 1 auto;
+}
+
+.box section.row {
+	flex: 1 1 auto;
+}
+
+/* colors */
+
+h1 {
+	font-weight: bold;
+	color: white;
+}
+
+section {
+	padding: 50px;
+	height: 100%;
+	background-color: #383838;
+	background-image: linear-gradient(70deg, #3b3b3b 40%, #292929);
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	background-color: #663dff;
+	background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+}
+
+.uploader {
+	width: inherit;
+	height: 99%;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: gray;
+	border-radius: 10px;
+}
+
+.uploader:hover {
+	border-color: white;
+}
